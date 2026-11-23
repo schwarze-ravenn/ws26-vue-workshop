@@ -11,7 +11,7 @@ const vHighlight = {
 }
 
 const onTripDeleted = (id: number) => {
-    alert(`Trip ${id} was deleted`);
+    tripsStore.removeTrip(id);
 }
 </script>
 
